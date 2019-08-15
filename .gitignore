@@ -27,11 +27,14 @@
 *.out
 *.spl
 *.synctex.gz
+
 # Directories
 *Highlights/
 *old/
 *R-Word/
 *Reviews_and_comments/
+*Submitted
+
 # Mac OS files
 .DS_Store
 .DS_Store?
@@ -43,3 +46,6 @@ Thumbs.db
 *.swp
 *~
 *(Autosaved).rtfd/
+
+# other files
+*.zip
