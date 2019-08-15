@@ -25,6 +25,7 @@
 *.mtc
 *.mtc1
 *.out
+*.spl
 *.synctex.gz
 # Directories
 *Highlights/
