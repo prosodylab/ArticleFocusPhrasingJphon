@@ -1,0 +1,44 @@
+# latex files
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.tui
+*.top
+*.tmp
+*.mp
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.synctex.gz
+# Directories
+*Highlights/
+*old/
+*R-Word/
+*Reviews_and_comments/
+# Mac OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*~
+*(Autosaved).rtfd/
