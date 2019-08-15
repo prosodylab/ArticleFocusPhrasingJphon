@@ -1,0 +1,779 @@
+\newcommand{\SortNoop}[1]{}
+\begin{thebibliography}{}
+
+\bibitem[Arregi, 2016]{arreg16}
+Arregi, K. (2016).
+\newblock Focus projection.
+\newblock In F\'ery, C. and Ishihara, S., editors, {\em The Oxford Handbook of
+  Information Structure}. Oxford University Press.
+
+\bibitem[Bailly and Holm, 2005]{baill05}
+Bailly, G. and Holm, B. (2005).
+\newblock Sfc: a trainable prosodic model.
+\newblock {\em Speech communication}, 46(3-4):348--364.
+
+\bibitem[Baumann and Winter, 2018]{bauma18}
+Baumann, S. and Winter, B. (2018).
+\newblock What makes a word prominent? predicting untrained german listeners'
+  perceptual judgments.
+\newblock {\em Journal of Phonetics}, 70:20--38.
+
+\bibitem[Baummann, 2016]{bauma16}
+Baummann, S. (2016).
+\newblock Second occurrence focus.
+\newblock In F\'ery, C. and Ishihara, S., editors, {\em The {Oxford} Handbook
+  of Information Structure}. Oxford University Press.
+
+\bibitem[Beckman, 1996]{beckm96}
+Beckman, M. (1996).
+\newblock {The Parsing of Prosody}.
+\newblock {\em Language and Cognitive Processes}, 19(11):17--67.
+
+\bibitem[Beckman and Edwards, 1992]{beckm92b}
+Beckman, M. and Edwards, J. (1992).
+\newblock Intonational categories and the articulatory control of duration.
+\newblock In Tohkura, Y., Vatikiotis-Bateson, E., and Sagisaka, Y., editors,
+  {\em Speech perception, production and linguistic structure}, pages 359--375.
+  Ohmsha, Tokyo.
+
+\bibitem[Beckman and Ayers~Elam, 1997]{beckm97}
+Beckman, M.~E. and Ayers~Elam, G. (1997).
+\newblock Guidelines for {ToBI} labelling.
+\newblock Ohio State University.
+
+\bibitem[Beckman et~al., 2005]{beckm05}
+Beckman, M.~E., Hirschberg, J., and Shattuck-Hufnagel, S. (2005).
+\newblock The orginal {ToBI} system and the evolution of the tobi framework.
+\newblock In Jun, S.-A., editor, {\em Prosodic models and transcription:
+  Towards prosodic typology}, pages 9---54. Oxford University Press, Oxford.
+
+\bibitem[Bishop et~al., this volume]{bisho19}
+Bishop, J., Kuo, G., and Kim, B. (this volume).
+\newblock Phonology, phonetics, and signal-extrinsic factors in the perception
+  of prosodic prominence: Evidence from rapid prosody transcription.
+\newblock {\em Journal of Phonetics}.
+
+\bibitem[Bj{\"o}rklund and Sundberg, 2016]{bjork16}
+Bj{\"o}rklund, S. and Sundberg, J. (2016).
+\newblock Relationship between subglottal pressure and sound pressure level in
+  untrained voices.
+\newblock {\em Journal of Voice}, 30(1):15--20.
+
+\bibitem[Botinis et~al., 1999]{botin99}
+Botinis, A., Fourakis, M., and Gawronska, B. (1999).
+\newblock Focus identification in {English, Greek and Swedish}.
+\newblock In {\em Proceedings of The 14th International Congress of Phonetic
+  Sciences, San Francisco}, pages 1557--1560.
+
+\bibitem[Breen et~al., 2010]{breenetal10}
+Breen, M., Fedorenko, E., Wagner, M., and Gibson, E. (2010).
+\newblock Acoustic correlates of information structure.
+\newblock {\em Language and Cognitive Processes}, 25(7):1044--1098.
+
+\bibitem[Breiman, 2001]{breim01}
+Breiman, L. (2001).
+\newblock Random forests.
+\newblock {\em Machine learning}, 45(1):5--32.
+
+\bibitem[Breiman et~al., 1984]{breim84}
+Breiman, L., Friedman, J.~H., Olshen, R.~A., and Stone, C.~J. (1984).
+\newblock {\em Classification and regression trees}.
+\newblock Chapman \& Hall, New York.
+
+\bibitem[B{\"u}ring, 2010a]{burin10}
+B{\"u}ring, D. (2010a).
+\newblock {A Weak Theory of Strong Readings}.
+\newblock Ms., Cologne University.
+
+\bibitem[B{\"u}ring, 2010b]{burin10typology}
+B{\"u}ring, D. (2010b).
+\newblock Towards a typology of focus realization.
+\newblock In Zimmermann, M. and F{\'e}ry, C., editors, {\em Information
+  structure. Theoretical, typological, and experimental perspectives}, pages
+  177--205. Oxford University Press, Oxford.
+
+\bibitem[B{\"u}ring, 2016]{burin16b}
+B{\"u}ring, D. (2016).
+\newblock {\em Intonation and meaning}.
+\newblock Oxford University Press.
+
+\bibitem[Byrd and Saltzman, 1998]{byrd98}
+Byrd, D. and Saltzman, E. (1998).
+\newblock Intragestural dynamics of multiple phrasal boundaries.
+\newblock {\em Journal of Phonetics}, 26:173--199.
+
+\bibitem[Byrd and Saltzman, 2003]{byrd03}
+Byrd, D. and Saltzman, E. (2003).
+\newblock The elastic phrase: Modeling the dynamics of boundary-adjacent
+  lengthening.
+\newblock {\em Journal of Phonetics}, 31:149--180.
+
+\bibitem[Cho, 2002]{cho02}
+Cho, T. (2002).
+\newblock {\em The Effects of Prosody on Articulation in {English}}.
+\newblock Routledge, New York.
+
+\bibitem[Cho, 2016]{cho16}
+Cho, T. (2016).
+\newblock Prosodic boundary strengthening in the phonetics--prosody interface.
+\newblock {\em Language and Linguistics Compass}, 10(3):120--141.
+
+\bibitem[Cho and Keating, 2001]{cho01}
+Cho, T. and Keating, P. (2001).
+\newblock Articulatory and acoustic studies on domain-initial strengthening in
+  {Korean}.
+\newblock {\em Journal of Phonetics}, 29(2):155--190.
+
+\bibitem[Cho and Keating, 2009]{cho09}
+Cho, T. and Keating, P. (2009).
+\newblock Effects of initial position versus prominence in english.
+\newblock {\em Journal of Phonetics}, 37(4):466--485.
+
+\bibitem[Cho et~al., 2011]{cho11}
+Cho, T., Lee, Y., and Kim, S. (2011).
+\newblock Communicatively driven versus prosodically driven hyper-articulation
+  in korean.
+\newblock {\em Journal of Phonetics}, 39(3):344--361.
+
+\bibitem[Cho et~al., 2007]{cho07}
+Cho, T., McQueen, J., and Cox, E. (2007).
+\newblock {Prosodically driven phonetic detail in speech processing: The case
+  of domain-initial strengthening in English}.
+\newblock {\em Journal of Phonetics}, 35(2):210--243.
+
+\bibitem[Chomsky, 1971]{choms71}
+Chomsky, N. (1971).
+\newblock Deep structure, surface structure, and semantic interpretation.
+\newblock In Steinberg, D.~D. and Jakobovits, L.~A., editors, {\em Semantics:
+  An Interdisciplinary Reader in Philosophy, Linguistics, and Psychology},
+  pages 183--216. Cambridge University Press, Cambridge.
+
+\bibitem[Chomsky and Halle, 1968]{SPE}
+Chomsky, N. and Halle, M. (1968).
+\newblock {\em The sound pattern of {E}nglish}.
+\newblock Harper \& Row, New York.
+
+\bibitem[Cole et~al., this volume]{cole19}
+Cole, J., Hualde, J.~I., Smith, C.~L., Eager, C., Mahrt, T., and Napole\~ao~de
+  Souza, R. (this volume).
+\newblock Sound, structure and meaning: The bases of prominence ratings in
+  {English, French and Spanish}.
+\newblock {\em Journal of Phonetics}.
+
+\bibitem[Cole et~al., 2010]{cole10rapid}
+Cole, J., Mo, Y., and Hasegawa-Johnson, M. (2010).
+\newblock Signal-based and expectation-based factors in the perception of
+  prosodic prominence.
+\newblock {\em Laboratory Phonology}, 1(2):425--452.
+
+\bibitem[Cooper et~al., 1985]{coope85}
+Cooper, W.~E., Eady, S.~J., and Mueller, P.~R. (1985).
+\newblock Acoustical aspects of contrastive stress in question-answer contexts.
+\newblock {\em Journal of the Acoustical Society of America}, 77(6):2142--2156.
+
+\bibitem[Eady et~al., 1986]{eady86dual}
+Eady, S., Cooper, W., Klouda, G., Mueller, P., and Lotts, D. (1986).
+\newblock Acoustical characteristics of sentential focus: narrow vs. broad and
+  single vs. dual focus environments.
+\newblock {\em Language and Speech}, 29(3):233--251.
+
+\bibitem[Eady and Cooper, 1986]{eady86}
+Eady, S.~J. and Cooper, W.~E. (1986).
+\newblock Speech intonation and focus location in matched statements.
+\newblock {\em Journal of the Acoustical Society of America}, 80(2):402--415.
+
+\bibitem[Edwards et~al., 1991]{edwar91}
+Edwards, J., Beckman, M., and Fletcher, J. (1991).
+\newblock {The articulatory kinematics of final lengthening}.
+\newblock {\em The Journal of the Acoustical Society of America}, 89:369.
+
+\bibitem[Feldhausen, 2016]{feldh16}
+Feldhausen, I. (2016).
+\newblock The relation between prosody and syntax: The case of different types
+  of left-dislocations in spanish.
+\newblock In Armstrong, M., Henriksen, N., and del Mar~Vanrell, M., editors,
+  {\em Intonational Grammar in {Ibero-Romance}: Approaches across linguistic
+  subfields}, pages 153--180. John Benjamins, Amsterdam.
+
+\bibitem[F{\'e}ry, 2010]{fery10}
+F{\'e}ry, C. (2010).
+\newblock German sentence accents and embedded prosodic phrases.
+\newblock MS. Potsdam University.
+
+\bibitem[F{\'e}ry, 2013]{fery13}
+F{\'e}ry, C. (2013).
+\newblock Focus as prosodic alignment.
+\newblock {\em Natural Language \& Linguistic Theory}, 31(3):683--734.
+
+\bibitem[F\'ery and Ishihara, 2009]{fery12a}
+F\'ery, C. and Ishihara, S. (2009).
+\newblock How focus and givenness shape prosody.
+\newblock In Zimmermann, M. and F{\'e}ry, C., editors, {\em Information
+  Structure: Theoretical, Typological, and Experimental Perspectives}, pages
+  36--63. Oxford University Press.
+\newblock Ms. Goethe Universit\"at Frankfurt.
+
+\bibitem[F{\'e}ry and Kentner, 2010]{fery10b}
+F{\'e}ry, C. and Kentner, G. (2010).
+\newblock The prosody of embedded coordinations in {German} and {Hindi}.
+\newblock In {\em Proceedings of Speech Prosody}, volume~5.
+
+\bibitem[F{\'e}ry and Truckenbrodt, 2005]{fery05}
+F{\'e}ry, C. and Truckenbrodt, H. (2005).
+\newblock {Sisterhood and Tonal Scaling}.
+\newblock {\em Studia Linguistica}, 59(2-3):223--243.
+
+\bibitem[Fougeron and Keating, 1997]{fouge97}
+Fougeron, C. and Keating, P. (1997).
+\newblock Articulatory strengthening at edges of prosodic domains.
+\newblock {\em Journal of the Acoustical Society of America},
+  101(6):3728--3740.
+
+\bibitem[Fujisaki, 1981]{fujis81}
+Fujisaki, H. (1981).
+\newblock Dynamic characteristics of voice fundamental frequency in speech and
+  singing. acoustical analysis and physiological interpretations.
+\newblock {\em KTH Department of Speech, Music and Hearing. Quarterly Status
+  Report}.
+
+\bibitem[Gee and Grosjean, 1983]{gee83}
+Gee, J. and Grosjean, F. (1983).
+\newblock Performance structures: A psycholinguistic appraisal.
+\newblock {\em Cognitive Psychology}, 15:411--458.
+
+\bibitem[Gerazov et~al., 2018]{geraz18}
+Gerazov, B., Bailly, G., Mohammed, O., Xu, Y., and Garner, P.~N. (2018).
+\newblock A variational prosody model for mapping the context-sensitive
+  variation of functional prosodic prototypes.
+\newblock {\em arXiv preprint arXiv:1806.08685}.
+
+\bibitem[Goldman-Eisler, 1972]{goldm72}
+Goldman-Eisler, F. (1972).
+\newblock {Pauses, clauses, sentences.}
+\newblock {\em Language and Speech}, 15(2):103--13.
+
+\bibitem[Gollrad, 2013]{gollr13}
+Gollrad, A. (2013).
+\newblock {\em Prosodic cue weighting in sentence comprehension}.
+\newblock PhD thesis, Universit{\"a}t Potsdam.
+
+\bibitem[Goodhue et~al., 2016]{goodhueetal16}
+Goodhue, D., Harrison, L., Su, Y. T.~C., and Wagner, M. (2016).
+\newblock Toward a bestiary of {English} intonational tunes.
+\newblock In Hammerly, C. and Prickett, B., editors, {\em Proceedings of the
+  46th Conference of the {North Eastern Linguistic Society (NELS)}, {Concordia
+  University}}, pages 311--320.
+
+\bibitem[Gramming et~al., 1988]{gramm88}
+Gramming, P., Sundberg, J., Ternstr{\"o}m, S., Leanderson, R., and Perkins,
+  W.~H. (1988).
+\newblock Relationship between changes in voice pitch and loudness.
+\newblock {\em Journal of Voice}, 2(2):118--126.
+
+\bibitem[Grice et~al., 2000]{grice00}
+Grice, M., Ladd, D.~R., and Arvaniti, A. (2000).
+\newblock On the place of phrase accents in intonational phonology.
+\newblock {\em Phonology}, 17(2):143--185.
+
+\bibitem[Grosjean and Collins, 1979]{grosj79}
+Grosjean, F. and Collins, M. (1979).
+\newblock Breathing, pausing, and reading.
+\newblock {\em Phonetica}, 36:98--114.
+
+\bibitem[Gussenhoven, 1983]{gusse83}
+Gussenhoven, C. (1983).
+\newblock Testing the reality of focus domains.
+\newblock {\em Language and Speech}, 26:61--80.
+
+\bibitem[Gussenhoven, 1990]{gusse90}
+Gussenhoven, C. (1990).
+\newblock Tonal association domains and the prosodic hierarchy in {E}nglish.
+\newblock In Ramsaran, S., editor, {\em Studies in the pronuncation of English.
+  A commemorative volume in honour of A.C. Gimson}, pages 27--37. Routledge,
+  London.
+
+\bibitem[Gussenhoven, 2007]{gusse07}
+Gussenhoven, C. (2007).
+\newblock Types of focus in {English}.
+\newblock In Lee, C., Gordon, M., and B{\"u}ring, D., editors, {\em Topic and
+  Focus: Intonation and Meaning. Theoretical and Crosslinguistic Perspectives},
+  pages 83--100. Kluwer, Dordrecht.
+
+\bibitem[Gussenhoven and Rietveld, 1992]{gusse92b}
+Gussenhoven, C. and Rietveld, A. C.~M. (1992).
+\newblock Intonation contours, prosodic structure, and preboundary lengthening.
+\newblock {\em Journal of Phonetics}, 20:282--303.
+
+\bibitem[Hayes and Lahiri, 1991]{hayes91}
+Hayes, B. and Lahiri, A. (1991).
+\newblock Bengali intonational phonology.
+\newblock {\em Natural Language and Linguistic Theory}, 9:47--96.
+
+\bibitem[Hedberg et~al., 2014]{hedbe14}
+Hedberg, N., Sosa, J.~M., and G{\"o}rg{\"u}l{\"u}, E. (2014).
+\newblock The meaning of intonation in yes-no questions in american {English}:
+  A corpus study.
+\newblock {\em Corpus Linguistics and Linguistic Theory}.
+
+\bibitem[Hedberg et~al., 2010]{hedberg2010prosody}
+Hedberg, N., Sosa, J.~M., G{\"o}rg{\"u}l{\"u}, E., and Mameni, M. (2010).
+\newblock Prosody and pragmatics of wh-interrogatives.
+\newblock In {\em Proceedings of the 2010 Annual Meeting of the Canadian
+  Linguistics Society}.
+
+\bibitem[H{\"o}hle, 1982]{hohle82}
+H{\"o}hle, T. (1982).
+\newblock Explikation f{\"u}r `{Normale} {Betonung}' und `{Normale}
+  {Wortstellung}'.
+\newblock In Abaraham, W., editor, {\em Satzglieder des {Deutschen}}, pages
+  75--153. Narr.
+
+\bibitem[Hothorn et~al., 2006]{hotho06}
+Hothorn, T., Buehlmann, P., Dudoit, S., Molinaro, A., and {Van Der Laan}, M.
+  (2006).
+\newblock Survival ensembles.
+\newblock {\em Biostatistics}, 7(3):355--373.
+
+\bibitem[Idsardi, 1992]{idsar92}
+Idsardi, W.~J. (1992).
+\newblock {\em The computation of Prososdy}.
+\newblock PhD thesis, MIT.
+
+\bibitem[Ishihara, 2003]{ishih03}
+Ishihara, S. (2003).
+\newblock {\em Intonation and Interface Conditions}.
+\newblock PhD thesis, MIT.
+
+\bibitem[Ishihara, 2007]{ishih07}
+Ishihara, S. (2007).
+\newblock Major phrase, focus phrase, multiple spell-out.
+\newblock {\em The Linguistic Review}, 24.
+
+\bibitem[Ishihara, 2016]{ishih16}
+Ishihara, S. (2016).
+\newblock Japanese downstep revisited.
+\newblock {\em Natural Language \& Linguistic Theory}, 34(4):1389--1443.
+
+\bibitem[Jackendoff, 1972]{jacke72}
+Jackendoff, R.~S. (1972).
+\newblock {\em Semantic Interpretation in Generative Grammar}.
+\newblock MIT Press, Cambridge, Ma.
+
+\bibitem[Jacobs, 1991]{jacob91c}
+Jacobs, J. (1991).
+\newblock Focus ambiguities.
+\newblock {\em Journal of Semantics}, 8:1--36.
+
+\bibitem[Jun, 1993]{Jun93}
+Jun, S.-A. (1993).
+\newblock {\em The phonetics and phonology of {Korean} prosody}.
+\newblock PhD thesis, Ohio State University.
+
+\bibitem[Jun, 2011]{jun11}
+Jun, S.-A. (2011).
+\newblock Prosodic markings of complex np focus, syntax, and the
+  pre-/post-focus string.
+\newblock In {\em Proceedings of the 28th West Coast Conference on Formal
+  Linguistics}, pages 214--230, Somerville, MA. Cascadilla Press.
+
+\bibitem[Jun and Fougeron, 2000]{jun00}
+Jun, S.-A. and Fougeron, C. (2000).
+\newblock A phonological model of {French} intonation.
+\newblock In {\em Intonation}, pages 209--242. Springer, Dordrecht.
+
+\bibitem[Keating et~al., 2003]{keati03}
+Keating, P., Cho, T., Fougeron, C., and Hsu, C.-S. (2003).
+\newblock Domain-initial strengthening in four languages.
+\newblock In Local, J., Ogden, R., and Temple, R., editors, {\em Phonetic
+  Interpretation: Papers in Laboratory Phonology {VI}}, pages 143--161.
+  Cambridge University Press, Cambridge, UK.
+
+\bibitem[Keating and Shattuck-Hufnagel, 2002]{keati02}
+Keating, P. and Shattuck-Hufnagel, S. (2002).
+\newblock A prosodic view of word form encoding for speech production.
+\newblock {\em UCLA Working Papers in Phonetics}, 101:112--156.
+
+\bibitem[Keating, 2006]{keati06}
+Keating, P.~A. (2006).
+\newblock Phonetic encoding of prosodic structure.
+\newblock In Harrington, J. and Tabain, M., editors, {\em Speech Production:
+  Models, Phonetic Processes and Techniques}, Macquarie Monographs in Cognitive
+  Science, chapter~11, pages 167--186. Psychology Press, New York.
+
+\bibitem[Kentner and F{\'e}ry, 2013]{kentn13}
+Kentner, G. and F{\'e}ry, C. (2013).
+\newblock A new approach to prosodic grouping.
+\newblock {\em The Linguistic Review}, 30(2):277--311.
+
+\bibitem[Klassen and Wagner, 2017]{klassenwagner17}
+Klassen, J. and Wagner, M. (2017).
+\newblock Prosodic prominence shifts are anaphoric.
+\newblock {\em Journal of Memory and Language}, 92:305--326.
+
+\bibitem[Klatt, 1975]{klatt75}
+Klatt, D.~H. (1975).
+\newblock Vowel lengthening is syntactically determined in a connected
+  discourse.
+\newblock {\em Journal of Phonetics}, 3:129--140.
+
+\bibitem[Krifka, 2008]{krifk08}
+Krifka, M. (2008).
+\newblock Basic notions of information structure.
+\newblock {\em Acta Linguistica Hungarica}, 55(3):243--276.
+
+\bibitem[Kubozono, 1989]{Kuboz89}
+Kubozono, H. (1989).
+\newblock Syntactic and rhythmic effects on downstep in {Japanese}.
+\newblock {\em Phonology}, 6:39--67.
+
+\bibitem[Kubozono, 1992]{Kuboz92}
+Kubozono, H. (1992).
+\newblock Modeling syntactic effects on downstep in {Japanese}.
+\newblock In Docherty, G. and Ladd, R., editors, {\em Papers in laboratory
+  phonology, vol. II: Gesture, segment, prosody}, pages 368--287. Cambridge
+  University Press, Cambridge.
+
+\bibitem[K{\"u}gler and F{\'e}ry, 2017]{kugle17}
+K{\"u}gler, F. and F{\'e}ry, C. (2017).
+\newblock Postfocal downstep in {German}.
+\newblock {\em Language and Speech}, 60:260--288.
+
+\bibitem[Kuznetsova et~al., 2013]{kuzne13}
+Kuznetsova, A., Brockhoff, P.~B., and Christensen, R. H.~B. (2013).
+\newblock lmertest: Tests for random and fixed effects for linear mixed effect
+  models (lmer objects of lme4 package).
+\newblock {\em R package version}, pages 2.0--25.
+
+\bibitem[Ladd, 1980]{ladd80}
+Ladd, D.~R. (1980).
+\newblock {\em The Structure of Intonational Meaning}.
+\newblock Indiana University Press, Bloomington.
+
+\bibitem[Ladd, 1988]{ladd88}
+Ladd, D.~R. (1988).
+\newblock Declination and `reset' and the hierarchical organziation of
+  utterances.
+\newblock {\em JASA}, 84:530--544.
+
+\bibitem[Ladd, 2008]{ladd08}
+Ladd, D.~R. (2008).
+\newblock {\em Intonational Phonology}.
+\newblock Cambridge University Press, Cambridge, 2nd edition.
+
+\bibitem[Lavoie, 2001]{lavoi01}
+Lavoie, L. (2001).
+\newblock {\em Consonant strength: Phonological patterns and phonetic
+  manifestations}.
+\newblock Garland, New York.
+
+\bibitem[Lehiste, 1973]{lehis73}
+Lehiste, I. (1973).
+\newblock Phonetic disambigation of syntactic ambiguity.
+\newblock {\em Glossa}, 7:107--122.
+
+\bibitem[Liberman and Pierrehumbert, 1984]{liber84}
+Liberman, M. and Pierrehumbert, J. (1984).
+\newblock Intonational variance under changes in pitch range and length.
+\newblock In Aronoff, M. and Oehrle, R., editors, {\em Language sound
+  structure}, pages 157--233. MIT Press, Cambridge, Ma.
+
+\bibitem[Liberman, 1975]{liber75}
+Liberman, M.~Y. (1975).
+\newblock {\em The Intonational System of {English}}.
+\newblock PhD thesis, MIT.
+
+\bibitem[Martin, 1970]{Marti70}
+Martin, James, G. (1970).
+\newblock On judging pauses in spontaneous speech.
+\newblock {\em Journal of Verbal Learning and Verbal}, 9:75--78.
+
+\bibitem[Martin, 1971]{Marti71}
+Martin, J. (1971).
+\newblock Some acoustic and grammatical features of sponaneous speech.
+\newblock In Horton, D. and Jenkins, J., editors, {\em The perception of
+  language}, pages 47--68. C.E. Merril, Columbus, OH.
+
+\bibitem[McAuliffe et~al., 2017a]{mcauliffeetal17}
+McAuliffe, M., Socolof, M., Mihuc, S., Wagner, M., and Sonderegger, M. (2017a).
+\newblock Montreal forced aligner: trainable text-speech alignment using
+  {Kaldi}.
+\newblock In {\em Proceedings of {Interspeech} 2017 in {Stockholm}}.
+
+\bibitem[McAuliffe et~al., 2017b]{polyglotdb}
+McAuliffe, M., Stengel-Eskin, E., Socolof, M., and Sonderegger, M. (2017b).
+\newblock {PolyglotDB} [software package].
+\newblock \url{https://github.com/MontrealCorpusTools/PolyglotDB}.
+
+\bibitem[M{\"o}bius, 1993]{mobiu93}
+M{\"o}bius, B. (1993).
+\newblock {\em Ein quantitatives {Modell} der deutschen {Intonation}: {Analyse}
+  und {Synthese} von {Grundfrequenzverl{\"a}ufen}}.
+\newblock Walter de Gruyter.
+
+\bibitem[M{\"u}cke et~al., 2014]{mucke14}
+M{\"u}cke, D., Grice, M., and Cho, T. (2014).
+\newblock More than a magic moment--paving the way for dynamics of articulation
+  and prosodic structure.
+\newblock {\em Journal of Phonetics}, 44:1--7.
+
+\bibitem[Newman, 1946]{newma46}
+Newman, S.~S. (1946).
+\newblock On the stress system of {English}.
+\newblock {\em Word}, 2:171--187.
+
+\bibitem[Norcliffe and Jaeger, 2005]{norcl05}
+Norcliffe, E. and Jaeger, T. (2005).
+\newblock {Accent-free prosodic phrases? Accents and phrasing in the
+  post-nuclear domain}.
+\newblock In {\em Proceedings of Interspeech 2005}.
+
+\bibitem[\"Ohmann, 1967]{ohman67}
+\"Ohmann, S. (1967).
+\newblock Word and sentence intonation: A quantitative model.
+\newblock {\em KTH Department of Speech, Music and Hearing. Quarterly Status
+  Report}.
+
+\bibitem[Panayotov et~al., 2015]{librispeech}
+Panayotov, V., Chen, G., Povey, D., and Khudanpur, S. (2015).
+\newblock {Librispeech: an ASR corpus based on public domain audio books}.
+\newblock In {\em Proc.\ ICASSP 2015}, pages 5206--5210.
+
+\bibitem[Petrone et~al., 2017]{petro17}
+Petrone, C., Truckenbrodt, H., Wellmann, C., Holzgrefe-Lang, J., Wartenburger,
+  I., and H{\"o}hle, B. (2017).
+\newblock Prosodic boundary cues in german: Evidence from the production and
+  perception of bracketed lists.
+\newblock {\em Journal of Phonetics}, 61:71--92.
+
+\bibitem[Pierrehumbert, 1979]{pierr79}
+Pierrehumbert, J. (1979).
+\newblock The perception of fundamental frequency declination.
+\newblock {\em The Journal of the Acoustical Society of America},
+  66(2):363--369.
+
+\bibitem[Pierrehumbert, 1980]{pierr80}
+Pierrehumbert, J. (1980).
+\newblock {\em The phonology and phonetics of {English} Intonation}.
+\newblock PhD thesis, MIT.
+
+\bibitem[Pierrehumbert and Hirschberg, 1990]{pierr90}
+Pierrehumbert, J. and Hirschberg, J. (1990).
+\newblock The meaning of intonational contours in the interpretation of
+  discourse.
+\newblock In Cohen, P.~R., Morgan, J., and Pollack, M.~E., editors, {\em
+  Intentions in Communication}, pages 271--311. MIT Press, Cambridge, Ma.
+
+\bibitem[Poschmann and Wagner, 2016]{poschmannwagner16}
+Poschmann, C. and Wagner, M. (2016).
+\newblock Relative clause extraposition and prosody in {German}.
+\newblock {\em Natural Language \& Linguistic Theory}, 34(3):1021--1066.
+
+\bibitem[Price et~al., 1991]{price91}
+Price, P.~J., Ostendorf, M., Shattuck-Hufnagel, S., and Fong, C. (1991).
+\newblock The use of prosody in syntactic disambiguation.
+\newblock {\em Journal of the Acoustical Society of America}, 90(6):2956--2970.
+
+\bibitem[Prince, 1983]{princ83}
+Prince, A.~S. (1983).
+\newblock Relating to the grid.
+\newblock {\em Linguistic Inquiry}, 14:19--100.
+
+\bibitem[Reinhart, 2006]{reinh06}
+Reinhart, T. (2006).
+\newblock {\em Interface Strategies}.
+\newblock MIT Press, Cambridge, Ma.
+
+\bibitem[Rooth, 1985]{rooth85}
+Rooth, M. (1985).
+\newblock {\em Association with Focus}.
+\newblock PhD thesis, University of Massachussetts, Amherst.
+
+\bibitem[Rooth, 1992]{rooth92b}
+Rooth, M. (1992).
+\newblock A theory of focus interpretation.
+\newblock {\em Natural Language Semantics}, 1(1):75--116.
+
+\bibitem[Schl\"oder, 2018]{schlo18}
+Schl\"oder, J.~J. (2018).
+\newblock {\em Assertion and rejection}.
+\newblock PhD thesis, Institute for Logic, Language and Computation, Amsterdam.
+
+\bibitem[Schwarzschild, 1999]{schwa99}
+Schwarzschild, R. (1999).
+\newblock Givenness, {AVOIDF} and other constraints on the placement of accent.
+\newblock {\em Natural Language Semantics}, 7:141--177.
+
+\bibitem[Selkirk, 1986]{selki86}
+Selkirk, E. (1986).
+\newblock On derived domains in sentence phonology.
+\newblock {\em Phonology Yearbook}, 3:371--405.
+
+\bibitem[Selkirk, 1984]{selki84}
+Selkirk, E.~O. (1984).
+\newblock {\em Phonology and Syntax. {The} relation between sound and
+  structure}.
+\newblock MIT Press, Cambridge, MA.
+
+\bibitem[Selkirk, 1995]{selki95}
+Selkirk, E.~O. (1995).
+\newblock Sentence prosody: Intonation, stress, and phrasing.
+\newblock In Goldsmith, J.~A., editor, {\em Handbook of Phonological Theory},
+  chapter~16, pages 550--569. Blackwell, London.
+
+\bibitem[Shattuck-Hufnagel and Turk, 1996]{shatt96}
+Shattuck-Hufnagel, S. and Turk, A.~E. (1996).
+\newblock A prosody tutorial for investigators of auditory sentence processing.
+\newblock {\em Journal of Psycholinguistic Research}, 25(2):193--247.
+
+\bibitem[Streeter, 1978]{stree78}
+Streeter, L.~A. (1978).
+\newblock {Acoustic determinants of phrase boundary perception}.
+\newblock {\em The Journal of the Acoustical Society of America},
+  64(6):1582--1592.
+
+\bibitem[Strobl et~al., 2008]{strob08}
+Strobl, C., Boulesteix, A.-L., Kneib, T., Augustin, T., and Zeileis, A. (2008).
+\newblock Conditional variable importance for random forests.
+\newblock {\em BMC Bioinformatics}, 9(307).
+
+\bibitem[Strobl et~al., 2007]{strob07}
+Strobl, C., Boulesteix, A.-L., Zeileis, A., and Hothorn, T. (2007).
+\newblock Bias in random forest variable importance measures: Illustrations,
+  sources and a solution.
+\newblock {\em BMC Bioinformatics}, 8(25).
+
+\bibitem[Strobl et~al., 2009]{strob09}
+Strobl, C., Malley, J., and Tutz, G. (2009).
+\newblock An introduction to recursive partitioning: rationale, application,
+  and characteristics of classification and regression trees, bagging, and
+  random forests.
+\newblock {\em Psychological methods}, 14(4):323--348.
+
+\bibitem[Sugahara, 2003]{sugah03}
+Sugahara, M. (2003).
+\newblock {\em {Downtrends and post-FOCUS intonation in Tokyo Japanese}}.
+\newblock PhD thesis, University of Massachusetts Amherst, Amherst, MA.
+
+\bibitem[Szendr{\"o}i, 2003]{szend03}
+Szendr{\"o}i, K. (2003).
+\newblock A stress-based approach to the syntax of {Hungarian} focus.
+\newblock {\em Linguistic Review}, 20:37--78.
+
+\bibitem[Tagliamonte and Baayen, 2012]{tagli12}
+Tagliamonte, S.~A. and Baayen, R.~H. (2012).
+\newblock Models, forests, and trees of {York English}: Was/were variation as a
+  case study for statistical practice.
+\newblock {\em Language Variation and Change}, 24(2):135--178.
+
+\bibitem[Tao et~al., 2018]{tao18}
+Tao, J., Torreira, F., and Clayards, M. (2018).
+\newblock Durational cues to word boundaries in spontaneous speech.
+\newblock In {\em Proc. 9th International Conference on Speech Prosody 2018},
+  pages 240--244.
+
+\bibitem[Trouvain et~al., 1998]{trouv98}
+Trouvain, J., Barry, W.~J., Nielsen, C., and Andersen, O. (1998).
+\newblock Implications of energy declination for speech synthesis.
+\newblock In {\em The Third ESCA/COCOSDA Workshop (ETRW) on Speech Synthesis}.
+
+\bibitem[Truckenbrodt, 1995]{truck95}
+Truckenbrodt, H. (1995).
+\newblock {\em Phonological phrases: Their relation to syntax, focus, and
+  prominence}.
+\newblock PhD thesis, MIT, Cambridge, Mass.
+
+\bibitem[Truckenbrodt, 1999]{truck99}
+Truckenbrodt, H. (1999).
+\newblock On the relation between syntactic phrases and phonological phrases.
+\newblock {\em Linguistic Inquiry}, 30(2):219--255.
+
+\bibitem[Truckenbrodt, 2012]{truck12}
+Truckenbrodt, H. (2012).
+\newblock Semantics of intonation.
+\newblock In Von~Heusinger, K., Maienborn, C., and Portner, P., editors, {\em
+  Semantics. An international handbook of natural language meaning}, volume~3,
+  pages 2039--2969. Mouton De Gruyter, Berlin.
+
+\bibitem[Truckenbrodt and F{\'e}ry, 2015]{truck15}
+Truckenbrodt, H. and F{\'e}ry, C. (2015).
+\newblock Hierarchical organisation and tonal scaling.
+\newblock {\em Phonology}, 32(01):19--47.
+
+\bibitem[Turk and Sawusch, 1997]{turk97}
+Turk, A. and Sawusch, J. (1997).
+\newblock {The domain of accentual lengthening in American English}.
+\newblock {\em Journal of Phonetics}, 25(1):25--41.
+
+\bibitem[Turk and Shattuck-Hufnagel, 2007]{turk07}
+Turk, A. and Shattuck-Hufnagel, S. (2007).
+\newblock {Multiple targets of phrase-final lengthening in American English
+  words}.
+\newblock {\em Journal of Phonetics}, 35(4):445--472.
+
+\bibitem[Vainio and J{\"a}rvikivi, 2006]{vaini06}
+Vainio, M. and J{\"a}rvikivi, J. (2006).
+\newblock {Tonal features, intensity, and word order in the perception of
+  prominence}.
+\newblock {\em Journal of Phonetics}, 34(3):319--342.
+
+\bibitem[Vaissi\`ere, 1983]{vaiss83}
+Vaissi\`ere, J. (1983).
+\newblock Language-independent prosodic features.
+\newblock In {\em Prosody: Models and Measurements}, pages 53--65. Springer.
+
+\bibitem[van~den Berg et~al., 1992]{vanden92}
+van~den Berg, R., Gussenhoven, C., and Rietveld, T. (1992).
+\newblock Downstep in {Dutch}: implications for a model.
+\newblock In Docherty, G. and Ladd, R., editors, {\em Papers in Laboratory
+  Phonology, vol. II: Gesture, segment, prosody}, pages 335--58. Cambridge
+  University Press, Cambridge.
+
+\bibitem[Vander~Klok et~al., 2018]{vanderkloketal18}
+Vander~Klok, J., Wagner, M., and Goad, H. (2018).
+\newblock Prosodic focus in {English} vs. {French}: A scope account.
+\newblock {\em Glossa: a journal of general linguistics}, 3(1)(71):1--47.
+
+\bibitem[Wagner, 2005]{wagner05recursion}
+Wagner, M. (2005).
+\newblock {\em Prosody and Recursion}.
+\newblock PhD thesis, MIT.
+
+\bibitem[Wagner, 2010]{wagner10nllt}
+Wagner, M. (2010).
+\newblock Prosody and recursion in coordinate structures and beyond.
+\newblock {\em Natural Language \& Linguistic Theory}, 28(1):183--237.
+
+\bibitem[Wagner et~al., this volume]{wagne19}
+Wagner, P., Cwiek, A., and Samlowski, B. (this volume).
+\newblock Exploiting the speech-gesture link to capture fine-grained prosodic
+  prominence impressions and listening strategies.
+\newblock {\em Journal of Phonetics}.
+
+\bibitem[Welby, 2003]{welby03}
+Welby, P. (2003).
+\newblock Effects of pitch accent position, type, and status on focus
+  projection.
+\newblock {\em Language and Speech}, 46(1):53--81.
+
+\bibitem[Wightman et~al., 1992]{wight92}
+Wightman, C.~W., Shattuck-Hufnagel, S., Ostendorf, M., and Price, P.~J. (1992).
+\newblock Segmental durations in the vicinity of prosodic phrase boundaries.
+\newblock {\em Journal of the Acoustical Society of America}, 92:1707--1717.
+
+\bibitem[Williams, 1997]{willi97}
+Williams, E. (1997).
+\newblock Blocking and anaphora.
+\newblock {\em Linguistic Inquiry}, 28(4):577--628.
+
+\bibitem[Xu, 2005]{xu05}
+Xu, Y. (2005).
+\newblock Speech melody as articulatorily implemented communicative functions.
+\newblock {\em Speech Communication}, 46:220--251.
+
+\bibitem[Xu et~al., 2012]{xu12}
+Xu, Y., Chen, S.-W., and Wang, B. (2012).
+\newblock Prosodic focus with and without post-focus compression: A typological
+  divide within the same language family?
+\newblock {\em The Linguistic Review}, 29:131--147.
+
+\end{thebibliography}

@@ -1,0 +1,63 @@
+library(lme4)
+library(ggplot2)
+library(dplyr)
+library(grid)
+library(gridExtra)
+
+source('helper.r')
+
+
+dannot=read.csv("all_responses.txt",sep='\t')
+
+dd.pitch = read.csv("dimensions_syllable_pitch_export.csv", fileEncoding = "UTF-8-BOM")
+dd.intensity = read.csv("dimensions_syllable_intensity_export.csv", fileEncoding = "UTF-8-BOM")
+dd <- merge(dd.pitch, dd.intensity)
+
+summary(dd)
+
+dd$Focus <- factor(dd$sound_file_focus, levels=c('Wide', 'First', 'Second', 'Third'))
+dd$sound_file_focus <- NULL
+
+dd$Intonation <- factor(dd$sound_file_intonation)
+dd$sound_file_intonation <- NULL
+
+dd$word_position_in_utterance[dd$Focus == 'Wide'&dd$word_position_in_utterance!=1]=dd$word_position_in_utterance[dd$Focus == 'Wide'&dd$word_position_in_utterance!=1]+2
+
+dd$Constituency <- factor(dd$sound_file_structure)
+dd$sound_file_structure <- NULL
+
+dd %>% group_by(word_label) %>% summarise(n())
+
+dd <- subset(dd, word_label != 'lilly')
+
+dd$recordedFile=paste0(dd$sound_file_name,'.wav')
+
+dd=merge(dd,dannot,all.x=TRUE,by=c('recordedFile'),suffixes=c("",".other"))
+
+dd$itemOriginal=dd$item_original
+
+dd$Item=factor(dd$itemOriginal)
+
+participantsN=unique(dd$participant[dd$experiment=='suborn'])
+participantsQ=unique(dd$participant[dd$experiment=='suborq'])
+participantsBoth=participantsN[participantsN%in%participantsQ]
+
+# only look at participants that were in both studies
+dd=subset(dd,participant%in%participantsBoth)
+
+max_syls <- dd %>% group_by(word_label) %>% summarise(word_syllable_count=max(syllable_position_in_word))
+dd <- merge(dd, max_syls)
+dd$Syllable=NA
+dd$Syllable[dd$syllable_position_in_word==1]='First'
+dd$Syllable[dd$syllable_position_in_word==dd$word_syllable_count]='Last'
+dd$Syllable=factor(dd$Syllable)
+
+dd=subset(dd,word_position_in_utterance%in%c('4','5','6'))
+
+
+dd$Position=factor(recode(dd$word_position_in_utterance, `4`= 'A', `5`='B', `6`='C'))
+
+dd1=subset(dd,Syllable=='First')
+dd1$syllable_label <- factor(dd1$syllable_label)
+dd2=subset(dd,Syllable=='Last')
+dd2$syllable_label <- factor(dd2$syllable_label)

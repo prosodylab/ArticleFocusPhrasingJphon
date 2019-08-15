@@ -1,0 +1,58 @@
+
+View(dd1 %>% group_by(Focus, Constituency, Position, Intonation) %>% summarise(n()))
+
+temp = dd1
+model.lm = lmer(Mean_F0_relativized ~
+                             Focus+(Constituency+Position)+
+                             (1|participant)+(1|itemOriginal),
+                           data=temp,na.action=na.exclude)
+summary(model.lm)
+#vcov(model.lm)
+modelResiduals = resid(model.lm)
+temp$Mean_F0_relativized.resid=modelResiduals
+
+
+rel.plot <- ggplot(dd1, aes_string(x='Position', y='Mean_F0_relativized',shape='Focus'))+ stat_summary(fun.y=mean, geom="point")  + stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) + ylab(' (z-score)') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10) + ggtitle(paste('Intonation - First syllable relativized ', 'Mean_F0_relativized')) + theme(plot.title = element_text(hjust = 0.5)) + xlab('') #+ theme(legend.position="none") 
+#ggsave(file='../plots/PitchRelativized.pdf',width=3,height=3)
+
+# pitch residualized for predictors other than phrasing
+res.plot <- ggplot(temp, aes_string(x='Position', y='Mean_F0_relativized.resid',shape='Focus')) +
+  stat_summary(fun.y=mean, geom="point") +
+  #stat_summary(fun.data = "mean_cl_boot", geom="errorbar", size=0.6, width=.15) +
+  stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) +
+  ylab('Residualized Pitch') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10)  + ggtitle(paste('Residualized ', 'Mean_F0_relativized')) + theme(plot.title = element_text(hjust = 0.5)) + ylab('Residualized Pitch') + xlab('') + ylab(' (z-score)') #+ theme(legend.position="none")
+
+grid_arrange_shared_legend(rel.plot, res.plot, ncol = 2, nrow = 1)
+
+#WORD
+
+View(dd.word %>% group_by(Focus, Constituency, Position, Intonation) %>% summarise(n()))
+
+temp = dd.word
+model.lm = lmer(Mean_F0_relativized ~
+                  Constituency*Intonation*Position+
+                  (1|participant)+(1|itemOriginal),
+                data=temp,na.action=na.exclude)
+summary(model.lm)
+#vcov(model.lm)
+modelResiduals = resid(model.lm)
+temp$Mean_F0_relativized.resid=modelResiduals
+
+
+rel.plot <- ggplot(dd.word, aes_string(x='Position', y='Mean_F0_relativized',shape='Focus'))+ stat_summary(fun.y=mean, geom="point")  + stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) + ylab(' (z-score)') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10) + ggtitle(paste('Intonation - First syllable relativized ', 'Mean_F0_relativized')) + theme(plot.title = element_text(hjust = 0.5)) + xlab('') #+ theme(legend.position="none") 
+#ggsave(file='../plots/PitchRelativized.pdf',width=3,height=3)
+
+# pitch residualized for predictors other than phrasing
+res.plot <- ggplot(temp, aes_string(x='Position', y='Mean_F0_relativized.resid',shape='Focus')) +
+  stat_summary(fun.y=mean, geom="point") +
+  #stat_summary(fun.data = "mean_cl_boot", geom="errorbar", size=0.6, width=.15) +
+  stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) +
+  ylab('Residualized Pitch') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10)  + ggtitle(paste('Residualized ', 'Mean_F0_relativized')) + theme(plot.title = element_text(hjust = 0.5)) + ylab('Residualized Pitch') + xlab('') + ylab(' (z-score)') #+ theme(legend.position="none")
+
+grid_arrange_shared_legend(rel.plot, res.plot, ncol = 2, nrow = 1)
+
+
+simple_first <- dd1 %>% select(syllable_label, speaker_name, word_label, sound_file_name, Max_F0_relativized)
+simple_word <-  dd.word %>% select(speaker_name, word_label, sound_file_name, Max_F0_relativized)
+simple <- merge(simple_first, simple_word, suffixes = c('', '_word'), all = TRUE, by=c('speaker_name', 'word_label', 'sound_file_name'))
+cor.test(simple$Max_F0_relativized, simple$Max_F0_relativized_word)

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541090832327.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1713263983",
+    "id" : "1A7F126B",
+    "lastKnownWriteTime" : 1540930467,
+    "last_content_update" : 1540930467,
+    "path" : "C:/Users/Michael/Dropbox/dimensions/9_JPhon/6_JPhon_Revision/R_Jphon/data_prep.r",
+    "project_path" : "data_prep.r",
+    "properties" : {
+        "cursorPosition" : "63,0",
+        "scrollLine" : "33"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

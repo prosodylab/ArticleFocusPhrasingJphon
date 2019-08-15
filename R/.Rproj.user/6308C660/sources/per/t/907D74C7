@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1540920065999.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1071185604",
+    "id" : "907D74C7",
+    "lastKnownWriteTime" : 1541000938,
+    "last_content_update" : 1541000938,
+    "path" : "E:/Dropbox/dimensions/9_JPhon/6_JPhon_Revision/R_Jphon/eda_plots.R",
+    "project_path" : "eda_plots.R",
+    "properties" : {
+        "cursorPosition" : "5,3",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

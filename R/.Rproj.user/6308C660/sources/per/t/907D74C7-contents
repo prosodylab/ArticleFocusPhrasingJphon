@@ -1,0 +1,153 @@
+
+acousCol=c("syllable_relativized_duration_by_speaker", "word_duration","word_relativized_duration_by_speaker", "Mean_F0", "Mean_F0_relativized", "Median_F0", "Median_F0_relativized", "Max_F0", "Max_F0_relativized","Mean_Intensity", "Mean_Intensity_relativized", "Median_Intensity", "Median_Intensity_relativized", "Max_Intensity", "Max_Intensity_relativized")
+
+
+
+# Intonation - 1
+
+for (i in acousCol) {
+  
+  # Relativized pitch
+  rel.plot <- ggplot(dd1, aes_string(x='Position', y=i,shape='Focus'))+ stat_summary(fun.y=mean, geom="point")  + stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) + ylab(' (z-score)') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10) + ggtitle(paste('Intonation - First syllable relativized ', i)) + theme(plot.title = element_text(hjust = 0.5)) + xlab('') #+ theme(legend.position="none") 
+  #ggsave(file='../plots/PitchRelativized.pdf',width=3,height=3)
+  
+  # pitch residualized for predictors other than phrasing
+  res.plot <- ggplot(intonation_dd1, aes_string(x='Position', y=i,shape='Focus')) +
+    stat_summary(fun.y=mean, geom="point") +
+    #stat_summary(fun.data = "mean_cl_boot", geom="errorbar", size=0.6, width=.15) +
+    stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) +
+    ylab('Residualized Pitch') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10)  + ggtitle(paste('Residualized ', i)) + theme(plot.title = element_text(hjust = 0.5)) + ylab('Residualized Pitch') + xlab('') + ylab(' (z-score)') #+ theme(legend.position="none")
+  
+  grid_arrange_shared_legend(rel.plot, res.plot, ncol = 2, nrow = 1)
+}
+
+# Focus - 1
+
+for (i in acousCol) {
+  
+  # Relativized pitch
+  rel.plot <- ggplot(dd1, aes_string(x='Position', y=names(dd1)[i],shape='Focus'))+ stat_summary(fun.y=mean, geom="point")  + stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) + ylab(' (z-score)') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10) + ggtitle(paste('Focus - First syllable relativized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + xlab('') #+ theme(legend.position="none") 
+  #ggsave(file='../plots/PitchRelativized.pdf',width=3,height=3)
+  
+  # pitch residualized for predictors other than phrasing
+  res.plot <- ggplot(focus.long1, aes_string(x='Position', y=names(dd1)[i],shape='Focus')) +
+    stat_summary(fun.y=mean, geom="point") +
+    #stat_summary(fun.data = "mean_cl_boot", geom="errorbar", size=0.6, width=.15) +
+    stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) +
+    ylab('Residualized Pitch') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10)  + ggtitle(paste('Residualized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + ylab('Residualized Pitch') + xlab('') + ylab(' (z-score)') #+ theme(legend.position="none")
+  
+  grid_arrange_shared_legend(rel.plot, res.plot, ncol = 2, nrow = 1)
+}
+
+# Bracket - 1
+
+for (i in acousCol) {
+  
+  # Relativized pitch
+  rel.plot <- ggplot(dd1, aes_string(x='Position', y=names(dd1)[i],shape='Focus'))+ stat_summary(fun.y=mean, geom="point")  + stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) + ylab(' (z-score)') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10) + ggtitle(paste('Bracket - First syllable relativized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + xlab('') #+ theme(legend.position="none") 
+  #ggsave(file='../plots/PitchRelativized.pdf',width=3,height=3)
+  
+  # pitch residualized for predictors other than phrasing
+  res.plot <- ggplot(brack.long1, aes_string(x='Position', y=names(dd1)[i],shape='Focus')) +
+    stat_summary(fun.y=mean, geom="point") +
+    #stat_summary(fun.data = "mean_cl_boot", geom="errorbar", size=0.6, width=.15) +
+    stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) +
+    ylab('Residualized Pitch') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10)  + ggtitle(paste('Residualized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + ylab('Residualized Pitch') + xlab('') + ylab(' (z-score)') #+ theme(legend.position="none")
+  
+  grid_arrange_shared_legend(rel.plot, res.plot, ncol = 2, nrow = 1)
+}
+
+# Position - 1
+
+for (i in acousCol) {
+  
+  # Relativized pitch
+  rel.plot <- ggplot(dd1, aes_string(x='Position', y=names(dd1)[i],shape='Focus'))+ stat_summary(fun.y=mean, geom="point")  + stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) + ylab(' (z-score)') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10) + ggtitle(paste('Position - First syllable relativized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + xlab('') #+ theme(legend.position="none") 
+  #ggsave(file='../plots/PitchRelativized.pdf',width=3,height=3)
+  
+  # pitch residualized for predictors other than phrasing
+  res.plot <- ggplot(position.long1, aes_string(x='Position', y=names(dd1)[i],shape='Focus')) +
+    stat_summary(fun.y=mean, geom="point") +
+    #stat_summary(fun.data = "mean_cl_boot", geom="errorbar", size=0.6, width=.15) +
+    stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) +
+    ylab('Residualized Pitch') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10)  + ggtitle(paste('Residualized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + ylab('Residualized Pitch') + xlab('') + ylab(' (z-score)') #+ theme(legend.position="none")
+  
+  grid_arrange_shared_legend(rel.plot, res.plot, ncol = 2, nrow = 1)
+}
+
+
+
+
+
+
+# Intonation - 2
+
+for (i in acousCol) {
+  
+  # Relativized pitch
+  rel.plot <- ggplot(dd1, aes_string(x='Position', y=names(dd1)[i],shape='Focus'))+ stat_summary(fun.y=mean, geom="point")  + stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) + ylab(' (z-score)') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10) + ggtitle(paste('Intonation - Second syllable relativized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + xlab('') #+ theme(legend.position="none") 
+  #ggsave(file='../plots/PitchRelativized.pdf',width=3,height=3)
+  
+  # pitch residualized for predictors other than phrasing
+  res.plot <- ggplot(intonation.long2, aes_string(x='Position', y=names(dd1)[i],shape='Focus')) +
+    stat_summary(fun.y=mean, geom="point") +
+    #stat_summary(fun.data = "mean_cl_boot", geom="errorbar", size=0.6, width=.15) +
+    stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) +
+    ylab('Residualized Pitch') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10)  + ggtitle(paste('Residualized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + ylab('Residualized Pitch') + xlab('') + ylab(' (z-score)') #+ theme(legend.position="none")
+  
+  grid_arrange_shared_legend(rel.plot, res.plot, ncol = 2, nrow = 1)
+}
+
+# Focus - 2
+
+for (i in acousCol) {
+  
+  # Relativized pitch
+  rel.plot <- ggplot(dd1, aes_string(x='Position', y=names(dd1)[i],shape='Focus'))+ stat_summary(fun.y=mean, geom="point")  + stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) + ylab(' (z-score)') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10) + ggtitle(paste('Focus - Second syllable relativized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + xlab('') #+ theme(legend.position="none") 
+  #ggsave(file='../plots/PitchRelativized.pdf',width=3,height=3)
+  
+  # pitch residualized for predictors other than phrasing
+  res.plot <- ggplot(focus.long2, aes_string(x='Position', y=names(dd1)[i],shape='Focus')) +
+    stat_summary(fun.y=mean, geom="point") +
+    #stat_summary(fun.data = "mean_cl_boot", geom="errorbar", size=0.6, width=.15) +
+    stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) +
+    ylab('Residualized Pitch') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10)  + ggtitle(paste('Residualized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + ylab('Residualized Pitch') + xlab('') + ylab(' (z-score)') #+ theme(legend.position="none")
+  
+  grid_arrange_shared_legend(rel.plot, res.plot, ncol = 2, nrow = 1)
+}
+
+# Bracket - 2
+
+for (i in acousCol) {
+  
+  # Relativized pitch
+  rel.plot <- ggplot(dd1, aes_string(x='Position', y=names(dd1)[i],shape='Focus'))+ stat_summary(fun.y=mean, geom="point")  + stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) + ylab(' (z-score)') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10) + ggtitle(paste('Bracket - Second syllable relativized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + xlab('') #+ theme(legend.position="none") 
+  #ggsave(file='../plots/PitchRelativized.pdf',width=3,height=3)
+  
+  # pitch residualized for predictors other than phrasing
+  res.plot <- ggplot(brack.long2, aes_string(x='Position', y=names(dd1)[i],shape='Focus')) +
+    stat_summary(fun.y=mean, geom="point") +
+    #stat_summary(fun.data = "mean_cl_boot", geom="errorbar", size=0.6, width=.15) +
+    stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) +
+    ylab('Residualized Pitch') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10)  + ggtitle(paste('Residualized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + ylab('Residualized Pitch') + xlab('') + ylab(' (z-score)') #+ theme(legend.position="none")
+  
+  grid_arrange_shared_legend(rel.plot, res.plot, ncol = 2, nrow = 1)
+}
+
+# Position - 2
+
+for (i in acousCol) {
+  
+  # Relativized pitch
+  rel.plot <- ggplot(dd1, aes_string(x='Position', y=names(dd1)[i],shape='Focus'))+ stat_summary(fun.y=mean, geom="point")  + stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) + ylab(' (z-score)') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10) + ggtitle(paste('Position - Second syllable relativized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + xlab('') #+ theme(legend.position="none") 
+  #ggsave(file='../plots/PitchRelativized.pdf',width=3,height=3)
+  
+  # pitch residualized for predictors other than phrasing
+  res.plot <- ggplot(position.long2, aes_string(x='Position', y=names(dd1)[i],shape='Focus')) +
+    stat_summary(fun.y=mean, geom="point") +
+    #stat_summary(fun.data = "mean_cl_boot", geom="errorbar", size=0.6, width=.15) +
+    stat_summary(fun.y = "mean", geom="line", aes(group=Focus)) +
+    ylab('Residualized Pitch') + facet_grid(Intonation ~ Constituency, scales = "fixed") + theme_bw(base_size=10)  + ggtitle(paste('Residualized ', names(dd1)[i])) + theme(plot.title = element_text(hjust = 0.5)) + ylab('Residualized Pitch') + xlab('') + ylab(' (z-score)') #+ theme(legend.position="none")
+  
+  grid_arrange_shared_legend(rel.plot, res.plot, ncol = 2, nrow = 1)
+}

@@ -1,0 +1,52 @@
+library(lme4)
+library(ggplot2)
+library(dplyr)
+library(grid)
+library(gridExtra)
+
+source('helper.r')
+
+
+dannot=read.csv("all_responses.txt",sep='\t')
+
+dd.pitch = read.csv("dimensions_word_pitch.csv", fileEncoding = "UTF-8-BOM")
+dd.intensity = read.csv("dimensions_word_intensity.csv", fileEncoding = "UTF-8-BOM")
+dd.word <- merge(dd.pitch, dd.intensity)
+
+summary(dd.word)
+
+dd.word$Focus <- factor(dd.word$sound_file_focus, levels=c('Wide', 'First', 'Second', 'Third'))
+dd.word$sound_file_focus <- NULL
+
+dd.word$Intonation <- factor(dd.word$sound_file_intonation)
+dd.word$sound_file_intonation <- NULL
+
+dd.word$word_position_in_utterance[dd.word$Focus == 'Wide'&dd.word$word_position_in_utterance!=1]=dd.word$word_position_in_utterance[dd.word$Focus == 'Wide'&dd.word$word_position_in_utterance!=1]+2
+
+dd.word$Constituency <- factor(dd.word$sound_file_structure)
+dd.word$sound_file_structure <- NULL
+
+dd.word %>% group_by(word_label) %>% summarise(n())
+
+dd.word <- subset(dd.word, word_label != 'lilly')
+
+dd.word$recordedFile=paste0(dd.word$sound_file_name,'.wav')
+
+dd.word=merge(dd.word,dannot,all.x=TRUE,by=c('recordedFile'),suffixes=c("",".other"))
+
+dd.word$itemOriginal=dd.word$item_original
+
+dd.word$Item=factor(dd.word$itemOriginal)
+
+participantsN=unique(dd.word$participant[dd.word$experiment=='suborn'])
+participantsQ=unique(dd.word$participant[dd.word$experiment=='suborq'])
+participantsBoth=participantsN[participantsN%in%participantsQ]
+
+# only look at participants that were in both studies
+dd.word=subset(dd.word,participant%in%participantsBoth)
+
+
+dd.word=subset(dd.word,word_position_in_utterance%in%c('4','5','6'))
+
+
+dd.word$Position=factor(recode(dd.word$word_position_in_utterance, `4`= 'A', `5`='B', `6`='C'))
