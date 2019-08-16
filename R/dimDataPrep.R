@@ -17,6 +17,8 @@ participants=read.csv("data/participants.txt",sep='\t')
 # merge acoustics with responses file
 dd=merge(dd,dannot,all.x=TRUE,by=c('recordedFile'),suffixes=c("",".other"))
 
+dd=merge(dd,participants,all.x=TRUE,by=c('participant'),suffixes=c("",".other"))
+
 dd$itemOriginal=dd$item_original
 dd$Item=factor(dd$itemOriginal)
 
@@ -100,13 +102,15 @@ dd$woi=factor(dd$woi)
 length(unique(dd$recordedFile))
 
 # Problematic soundfiles: 86, 6.9% of the data
-length(unique(dd$recordedFile[dd$Thea_problematic=='1'|dd$David_problematic=='1'|dd$Erin2_problematic=='1']))
+length(unique(dd$recordedFile[dd$An1_problematic=='1'|dd$An3_problematic=='1'|dd$An2_problematic=='1']))
 
 # exclude files marked as problematic:
-dd=subset(dd,Thea_problematic!='1'&Thea_intonation!=4&Erin2_problematic!='1'&dd$David_problematic!='1')
+dd=subset(dd,An1_problematic!='1'&An1_intonation!=4&An2_problematic!='1'&dd$An3_problematic!='1')
 
-# remove level 4='problematic' from Thea's intonation annotation:
-dd$Thea_intonation=factor(dd$Thea_intonation)
+# remove level 4='problematic' from An1's intonation annotation:
+dd$An1_intonation=factor(dd$An1_intonation)
+
+# Annotator3 annotated part of the dataset wrongly for focus, and was hence not considered
 
 length(unique(dd$recordedFile))
 # remaining files: 1166/1253
@@ -134,8 +138,8 @@ length(unique(dd$recordedFile))
 # "Cohen suggested the Kappa result be interpreted as follows: values ≤ 0 as indicating no agreement and 0.01–0.20 as none to slight, 0.21–0.40 as fair, 0.41– 0.60 as moderate, 0.61–0.80 as substantial, and 0.81–1.00 as almost perfect agreement."
 
 # Intonation
-dd$IntonationA1=recode_factor(dd$Thea_intonation,"1"="Falling","2"="Rising","3"="Unclear",.default=NA_character_)
-dd$IntonationA2=recode_factor(dd$Erin2_intonation,"1"="Falling","2"="Rising","3"="Unclear",.default=NA_character_)
+dd$IntonationA1=recode_factor(dd$An1_intonation,"1"="Falling","2"="Rising","3"="Unclear",.default=NA_character_)
+dd$IntonationA2=recode_factor(dd$An2_intonation,"1"="Falling","2"="Rising","3"="Unclear",.default=NA_character_)
 #
 dd$IntonationTest=dd$IntonationA2
 
@@ -153,10 +157,10 @@ nrow(dd[dd$IntonationCorrect,])/nrow(dd)
 
 
 # Prominence:
-dd$ProminenceA1=recode_factor(dd$Thea_prominence,"1"="Broad","2"="First","3"="Second","4"="Third",.default=NA_character_)
+dd$ProminenceA1=recode_factor(dd$An1_prominence,"1"="Broad","2"="First","3"="Second","4"="Third",.default=NA_character_)
 levels(dd$ProminenceA1)=c("Broad","First","Second","Third")
 
-dd$ProminenceA2=recode_factor(dd$Erin2_prominence,"1"="Broad","2"="First","3"="Second","4"="Third",.default=NA_character_)
+dd$ProminenceA2=recode_factor(dd$An2_prominence,"1"="Broad","2"="First","3"="Second","4"="Third",.default=NA_character_)
 levels(dd$ProminenceA1)=c("Broad","First","Second","Third")
   
 # Prominence: agreement 0.66 'substantial'
@@ -179,9 +183,9 @@ dd %>% filter(!is.na(ProminenceA2)) %>%
 
 
 # Branching:
-dd$ConstituencyA1=recode_factor(dd$Thea_branching,"1"="(AB)C","2"="A(BC)","3"="Unclear",.default=NA_character_)
+dd$ConstituencyA1=recode_factor(dd$An1_branching,"1"="(AB)C","2"="A(BC)","3"="Unclear",.default=NA_character_)
 #
-dd$ConstituencyA2=recode_factor(dd$Erin2_branching,"1"="(AB)C","2"="A(BC)","3"="Unclear",.default=NA_character_)
+dd$ConstituencyA2=recode_factor(dd$An2_branching,"1"="(AB)C","2"="A(BC)","3"="Unclear",.default=NA_character_)
 
 # Branching: interrater reliability: 0.73 (substantial)
 cohen.kappa(x=cbind(dd$ConstituencyA1,dd$ConstituencyA2))

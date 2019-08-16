@@ -15,6 +15,7 @@ library(tidyr)
 library(dplyr)
 library(xtable)
 
+source('dimHelper.R')
 source('dimDataPrep.R')
 source('dimEDA_plots.R')
 source('dimModels.R')

@@ -1,4 +1,4 @@
-experiment	item	item_original	condition	bracketing	text	participant	playlist	order	trialN	recordedFile	Thea_intonation	Thea_prominence	Thea_branching	Thea_problematic	David_intonation	David_prominence	David_branching	David_problematic	Erin2_intonation	Erin2_prominence	Erin2_branching	Erin2_problematic
+experiment	item	item_original	condition	bracketing	text	participant	playlist	order	trialN	recordedFile	An1_intonation	An1_prominence	An1_branching	An1_problematic	An3_intonation	An3_prominence	An3_branching	An3_problematic	An2_intonation	An2_prominence	An2_branching	An2_problematic
 suborq	7	4	2	r	"He said that Marjorie, and Sally or Molly were nominated for the prize. But the newspaper says that Marjorie, and Logan or Molly were nominated?"	28	1	1	1	suborq_28_7_2.wav	1	3	2	0	1	2	2	0	1	4	2	0
 suborq	2	1	3	l	"I thought they said Sarah or Marvin, and Nolan arrived. But you say that Marion or Marvin, and Nolan arrived?"	28	1	2	2	suborq_28_2_3.wav	2	2	2	0	2	2	2	0	2	5	3	1
 suborq	1	1	4	r	"I thought they said Sarah arrived. But you say that Marion, or Marvin and Nolan arrived?"	28	1	3	3	suborq_28_1_4.wav	3	5	3	1	3	5	3	1	3	5	3	1
