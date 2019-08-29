@@ -43,7 +43,7 @@ texreg(list(modelDuration1,modelDuration2),
        dcolumn=T, 
        include.nobs=F, 
        include.groups=F,
-       caption = "Mixed Effects Regression Models for the duration of word B (estimates in ms, standard errors in parentheses)",
+       caption = "Mixed Effects Regression Models for the duration of word B (estimates in sec, SE in parentheses)",
        use.packages=F,float.pos="h!",fontsize = "footnotesize",
        # base stars on lmertest Sattersthwaite p-values:
        override.pval=c(list(summary(modelDuration1)$coefficients[,'Pr(>|t|)'],summary(modelDuration2)$coefficients[,'Pr(>|t|)']))
@@ -156,7 +156,7 @@ modelDuration1A=lmer(data=filter(dd1,Position=='A'),
                       ((Broad.vs.Narrow+First.vs.Late+Second.vs.Third)+
                          Decl.vs.Inter+Left.vs.Right||participant),
 )
-summary(modelDurationA) 
+summary(modelDuration1A) 
 
 modelDuration2A=lmer(data=filter(dd2,Position=='A'),
                     syllable_duration~
@@ -182,7 +182,7 @@ texreg(list(modelDuration1A,modelDuration2A),
        dcolumn=T, 
        include.nobs=F, 
        include.groups=F,
-       caption = "Mixed Effects Regression Models for the duration of word A (estimate in ms, SE in parentheses).",
+       caption = "Mixed Effects Regression Models for the duration of word A (estimate in sec, SE in parentheses).",
        use.packages=F,float.pos="h!",fontsize = "footnotesize",
        # base stars on lmertest Sattersthwaite p-values:
        override.pval=c(list(summary(modelDuration1A)$coefficients[,'Pr(>|t|)'],summary(modelDuration2A)$coefficients[,'Pr(>|t|)']))
@@ -322,7 +322,7 @@ texreg(list(modelDuration1C,modelDuration2C),
        dcolumn=T, 
        include.nobs=F, 
        include.groups=F,
-       caption = "Mixed Effects Regression Models for the duration of word C (estimate in ms, SE in parentheses).",
+       caption = "Mixed Effects Regression Models for the duration of word C (estimate in sec, SE in parentheses).",
        use.packages=F,float.pos="h!",fontsize = "footnotesize",
        # base stars on lmertest Sattersthwaite p-values:
        override.pval=c(list(summary(modelDuration1C)$coefficients[,'Pr(>|t|)'],summary(modelDuration2C)$coefficients[,'Pr(>|t|)']))
