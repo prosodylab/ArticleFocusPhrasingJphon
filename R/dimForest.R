@@ -297,19 +297,19 @@ both.wide$predictionsOOBIntCorrect[both.wide$Intonation=='Interrogative']=predic
 # plot varimp 
 #
 pdf("../Paper/Figures/FocusVarimp.pdf")
-dotchart(subsFocus.varimp, xlim=c(-0.005, 0.1))
+dotchart(subsFocus.varimp, xlim=c(-0.005, 0.06))
 abline(v=0, col="black")
 abline(v=abs(min(subsFocus.varimp)), col="black", lt=2)
 dev.off()
 #
 pdf("../Paper/Figures/FocusVarimpDec.pdf")
-dotchart(subsFocusDec.varimp, xlim=c(-0.005, 0.1))
+dotchart(subsFocusDec.varimp, xlim=c(-0.005, 0.06))
 abline(v=0, col="black")
 abline(v=abs(min(subsFocusDec.varimp)), col="black", lt=2)
 dev.off()
 #
 pdf("../Paper/Figures/FocusVarimpInt.pdf")
-dotchart(subsFocusInt.varimp, xlim=c(-0.005, 0.1))
+dotchart(subsFocusInt.varimp, xlim=c(-0.005, 0.06))
 abline(v=0, col="black")
 abline(v=abs(min(subsFocusInt.varimp)), col="black", lt=2)
 dev.off()
